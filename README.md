@@ -37,4 +37,4 @@ Example of analysing data from a clinical trial using synthetic data.
 
 We want to adress questions such as:
 * Do patients that take the drug respond more to treatment compared to those in the control group?
-* Can we use data science to predict whether a patient will respond better to the new treatment
+* Can we use data science to predict whether a patient will respond better to the new treatment?
