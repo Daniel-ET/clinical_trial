@@ -59,5 +59,11 @@ We want to adress questions such as:
 |#|Column|Non-Null Count|Dtype|
 |-|------|--------------|-----|
 |0|subject_id|772 non-null|object|
+|1|age|772 non-null|float64|
+|2|sex|772 non-null|object|
+|3|weight|761 non-null|float64|
+|4|height|772 non-null|float64|
+|5|trt_grp|772 non-null|object|
+|6|RESPONSE|772 non-null|object|
 
 
