@@ -13,8 +13,7 @@ Example of analysing data from a clinical trial using synthetic data.
 |age|The age of the patient|
 |weight|The weight of the patient|
 |height|The height of the patient|
-|trt_grp|Whether the patient is receiving the new
-drug or the standard of care (control)|
+|trt_grp|Whether the patient is receiving the new drug or the standard of care (control)|
 |response|Whether the patient responsed|
 
 |subject_id|age|sex|weight|height|trt_grp|RESPONSE|
