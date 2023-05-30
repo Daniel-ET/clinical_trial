@@ -28,3 +28,9 @@ Example of analysing data from a clinical trial using synthetic data.
 |SUBJ_008|57.0|Male|93.50|1.63|DRUG|N|
 |SUBJ_009|72.0|Male|85.57|1.68|DRUG|N|
 
+**protein_levels.csv**
+
+|COLUMNS|DESCRIPTION|
+|-------|-----------|
+|participant_id|Patient_ID|
+|protein_concentration|Concentration of a blood protein (ug/L) that might be a potential predictive biomarker of response|
