@@ -12,5 +12,5 @@ clinical_study.csv
 |age|The age of the patient|
 |weight|The weight of the patient|
 |height|The height of the patient|
-|trt_grp||Whether in drug or control group|
+|trt_grp|Whether patient is in drug or control group|
 |response|Whether the patient responsed|
