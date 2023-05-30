@@ -86,6 +86,16 @@ We want to adress questions such as:
 |0|participant_id|768 non-null|object|
 |1|protein_concentration|763 non-null|float64|
 
+`protein_levels.describe()`
 
-
+|   |protein_concentration|
+|---|---------------------|
+|count|763.00|
+|mean|121.69|
+|std|30.54|
+|min|44.00|
+|25%|99.00|
+|50%|117.00|
+|75%|141.00|
+|max|199.00|
 
