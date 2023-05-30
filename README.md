@@ -120,7 +120,7 @@ We want to adress questions such as:
 |participant_id|0|
 |protein_concentration|5|
 
-The two columnms with missing values 'age' and protein_concentration There are many ways to deal with missing values. For example depending on the data and task, we could drop the rows with missing values or replace the missing values with the mean, median, mode, or even a constant value . We can use a box plot or density plot to help decide what method to follow
+The two columnms with missing values are 'weight' and protein_concentration There are many ways to deal with missing values. For example depending on the data and task, we could drop the rows with missing values or replace the missing values with the mean, median, mode, or even a constant value . We can use a box plot or density plot to help decide what method to follow
 
 
 
