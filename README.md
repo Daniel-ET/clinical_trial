@@ -79,6 +79,13 @@ We want to adress questions such as:
 |75%|67.00|104.65|1.76|
 |max|79.00|182.50|1.94|
 
+`protein_levels.info()`
+
+|#|Column|Non-Null Count|Dtype|
+|-|------|--------------|-----|
+|0|participant_id|768 non-null|object|
+|1|protein_concentration|763 non-null|float64|
+
 
 
 
