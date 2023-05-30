@@ -66,4 +66,19 @@ We want to adress questions such as:
 |5|trt_grp|772 non-null|object|
 |6|RESPONSE|772 non-null|object|
 
+`clinical_study.describe()`
+
+|   |age|weight|height|
+|---|---|------|------|
+|count|772.00|761.00|772.00|
+|mean|61.58|91.11|1.677|
+|std|7.87|22.49|0.10|
+|min|7.20|22.31|1.19|
+|25%|57.00|75.55|1.60|
+|50%|62.00|88.87|1.67|
+|75%|67.00|104.65|1.76|
+|max|79.00|182.50|1.94|
+
+
+
 
