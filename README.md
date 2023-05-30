@@ -19,6 +19,7 @@ Example of analysing data from a clinical trial using synthetic data.
 first few rows
 
 |subject_id|age|sex|weight|height|trt_grp|RESPONSE|
+|----------|---|---|------|------|-------|--------|
 |SUBJ_001|46.0|Female|84.66|1.59|DRUG|N|
 |SUBJ_002|47.0|Female|71.21|1.64|DRUG|N|
 |SUBJ_003|48.0|Female|69.85|1.73|CONTROL|N|
