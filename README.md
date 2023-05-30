@@ -99,3 +99,25 @@ We want to adress questions such as:
 |75%|141.00|
 |max|199.00|
 
+## Replacing missing values
+
+`clinical_study.isnull().sum()`
+
+|column|# of missing values|
+|------|-------------------|
+|subject_id|0|
+|age|0|
+|sex|0|
+|weight|11|
+|height|0|
+|trt_grp|0|
+|RESPONSE|0|
+
+`protein_levels.isnull().sum()`
+
+|column|# of missing values|
+|------|-------------------|
+|participant_id|0|
+|protein_concentration|5|
+
+
