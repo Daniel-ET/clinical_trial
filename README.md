@@ -35,6 +35,19 @@ Example of analysing data from a clinical trial using synthetic data.
 |participant_id|Patient_ID|
 |protein_concentration|Concentration of a blood protein (ug/L) that might be a potential predictive biomarker of response|
 
+
+|participant_id|protein_concentration|
+|--------------|---------------------|
+|SUBJ_001|148.0|
+|SUBJ_002|85.0|
+|SUBJ_003|183.0|
+|SUBJ_004|89.0|
+|SUBJ_005|137.0|
+|SUBJ_006|116.0|
+|SUBJ_007|78.0|
+|SUBJ_008|115.0|
+|SUBJ_009|197.0|
+
 We want to adress questions such as:
 * Do patients that take the drug respond more to treatment compared to those in the control group?
 * Can we use data science to predict whether a patient will respond better to the new treatment?
