@@ -2,7 +2,7 @@
 
 Example of analysing data from a clinical trial using synthetic data.
 
-## The data
+## The Data
 
 **clinical_study.csv**
 
