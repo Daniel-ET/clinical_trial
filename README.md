@@ -54,7 +54,7 @@ We want to adress questions such as:
 
 ## Examining Data
 
-```clinical_study.info()```
+`clinical_study.info()`
 
 |#|Column|Non-Null Count|Dtype|
 |-|------|--------------|-----|
