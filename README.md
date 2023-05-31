@@ -125,6 +125,10 @@ The two columnms with missing values are *weight* and *protein_concentration* Th
 ![image](https://github.com/Daniel-ET/clinical_trial/assets/96924468/07944ea7-eb7b-42e6-8e8c-3443a2f731c9)
 ![image](https://github.com/Daniel-ET/clinical_trial/assets/96924468/cd4aa035-cdb9-4819-b0d3-19e7b5b1ff48)
 
+As we can see, the data for age and protein is slighly skewed. Therefore it would be better to use the median to replace the missing values
+
+
+
 
 
 
