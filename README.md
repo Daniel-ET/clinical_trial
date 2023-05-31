@@ -123,6 +123,8 @@ We want to adress questions such as:
 The two columnms with missing values are *weight* and *protein_concentration* There are many ways to deal with missing values. For example depending on the data and task, we could drop the rows with missing values or replace the missing values with the mean, median, mode, or even a constant value . We can use a box plot or density plot to help decide what method to follow
 
 ![image](https://github.com/Daniel-ET/clinical_trial/assets/96924468/07944ea7-eb7b-42e6-8e8c-3443a2f731c9)
+![image](https://github.com/Daniel-ET/clinical_trial/assets/96924468/cd4aa035-cdb9-4819-b0d3-19e7b5b1ff48)
+
 
 
 
