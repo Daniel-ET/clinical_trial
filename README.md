@@ -131,6 +131,7 @@ As we can see, the data for age and protein is slighly skewed. Therefore it woul
 
 ```protein_levels = protein_levels.fillna(protein_levels.median())```
 
+## Create new variables and merge dataframes
 
 
 
