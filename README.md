@@ -151,6 +151,9 @@ BMI is calculated by dividing weight by the square of the height
 
 we must first rename the patient id column in one of the dataframes since they are named differently. We will be renaming the 'participant id' column in the protein_levels dataframe
 
+`protein_levels = protein_levels.rename(columns={'participant_id': 'subject_id'})`
+
+
 
 
 
