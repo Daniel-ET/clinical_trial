@@ -166,11 +166,11 @@ We can then merge the two dataframes on the subject id
 
 ## 4. Aggregating data
 
-|trt_grp|   |      |      |   |                     |
-|       |age|weight|height|bmi|protein_concentration|
-|-------|---|------|------|---|---------------------|
-|CONTROL|61.86|91.88|1.66|32.62|121.26|
-|DRUG|61.72|90.80|1.68|31.99|122.10|
+#### comparing averages in the two treatment groups
+
+![a](https://github.com/Daniel-ET/clinical_trial/assets/96924468/3afff38f-fa95-4dcd-ae54-cd03e90f18af)
+
+
 
 
 
