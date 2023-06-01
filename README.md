@@ -153,6 +153,19 @@ we must first rename the patient id column in one of the dataframes since they a
 
 `protein_levels = protein_levels.rename(columns={'participant_id': 'subject_id'})`
 
+We can then merge the two dataframes on the subject id
+
+`df = clinical_study.merge(protein_levels[['subject_id', 'protein_concentration']], on = 'subject_id')`
+
+|subject_id|age|sex|weight|height|trt_grp|RESPONSE|bmi|protein_concentration|
+|----------|---|---|------|------|-------|--------|---|---------------------|
+|SUBJ_001|46.0|Female|84.66|1.59|DRUG|N|33.487599|148.0|
+|SUBJ_002|47.0|Female|71.21|1.64|DRUG|N|26.476056|85.0|
+|SUBJ_003|48.0|Female|69.85|1.73|CONTROL|N|23.338568|183.0|
+|SUBJ_004|59.0|Female|62.94|1.50|DRUG|Y|27.973333|89.0|
+
+
+
 
 
 
