@@ -127,6 +127,11 @@ The two columnms with missing values are *weight* and *protein_concentration* Th
 
 As we can see, the data for age and protein is slighly skewed. Therefore it would be better to use the median to replace the missing values
 
+```clinical_study = clinical_study.fillna(clinical_study.median())```
+```protein_levels = protein_levels.fillna(protein_levels.median())```
+
+
+
 
 
 
