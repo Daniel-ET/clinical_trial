@@ -174,6 +174,11 @@ We can then merge the two dataframes on the subject id
 
 ![b](https://github.com/Daniel-ET/clinical_trial/assets/96924468/6c9401c4-d62b-4b0b-9063-e1a8f3739706)
 
+#### compare responders and non-responders in the two treatment groups
+
+![c ](https://github.com/Daniel-ET/clinical_trial/assets/96924468/daeb7baa-99ec-463d-be56-0b32c9a611d2)
+
+
 
 
 
