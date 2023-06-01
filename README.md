@@ -52,7 +52,7 @@ We want to adress questions such as:
 * Do patients that take the drug respond more to treatment compared to those in the control group?
 * Can we use data science to predict whether a patient will respond better to the new treatment?
 
-## Examining Data
+## 2. Examining Data
 
 `clinical_study.info()`
 
@@ -131,7 +131,7 @@ As we can see, the data for age and protein is slighly skewed. Therefore it woul
 
 ```protein_levels = protein_levels.fillna(protein_levels.median())```
 
-## 2. Create new variables and merge dataframes
+## 3. Create new variables and merge dataframes
 
 #### a. BMI
 
@@ -164,7 +164,7 @@ We can then merge the two dataframes on the subject id
 |SUBJ_003|48.0|Female|69.85|1.73|CONTROL|N|23.338568|183.0|
 |SUBJ_004|59.0|Female|62.94|1.50|DRUG|Y|27.973333|89.0|
 
-## 3. Aggregating data
+## 4. Aggregating data
 
 
 
