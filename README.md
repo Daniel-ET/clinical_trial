@@ -180,6 +180,15 @@ We can then merge the two dataframes on the subject id
 
 ## 5. Visualizing the data
 
+#### i. Boxplot of age(y-axis) by response (x-axis)
+
+![image](https://github.com/Daniel-ET/clinical_trial/assets/96924468/e6951263-54da-448f-8a21-b1d7f8a42555)
+
+##### seperated by treatment group
+
+![image](https://github.com/Daniel-ET/clinical_trial/assets/96924468/3d8b83e1-5fbe-4d1d-85e6-39b1f36e16ea)
+
+
 
 
 
