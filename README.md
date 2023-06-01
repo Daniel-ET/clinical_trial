@@ -147,6 +147,8 @@ BMI is calculated by dividing weight by the square of the height
 |SUBJ_003|48.0|Female|69.85|1.73|CONTROL|N|23.338568|
 |SUBJ_004|59.0|Female|62.94|1.50|DRUG|Y|27.973333|
 
+#### merge dataframes
+
 
 
 
