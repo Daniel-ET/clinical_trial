@@ -167,7 +167,7 @@ We can then merge the two dataframes on the subject id
 ## 4. Aggregating data
 
 |       |age|weight|height|bmi|protein_concentration|
-|trt_grp|   |      |      |   |                     |
+|trt_grp|                                           |
 |-------|---|------|------|---|---------------------|
 |CONTROL|61.86|91.88|1.66|32.62|121.26|
 |DRUG|61.72|90.80|1.68|31.99|122.10|
