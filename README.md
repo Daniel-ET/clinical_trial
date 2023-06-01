@@ -2,7 +2,7 @@
 
 Example of analysing data from a clinical trial using synthetic data.
 
-## The Data
+## 1. The Data
 
 **clinical_study.csv**
 
@@ -131,7 +131,7 @@ As we can see, the data for age and protein is slighly skewed. Therefore it woul
 
 ```protein_levels = protein_levels.fillna(protein_levels.median())```
 
-## Create new variables and merge dataframes
+## 2. Create new variables and merge dataframes
 
 #### a. BMI
 
@@ -164,7 +164,7 @@ We can then merge the two dataframes on the subject id
 |SUBJ_003|48.0|Female|69.85|1.73|CONTROL|N|23.338568|183.0|
 |SUBJ_004|59.0|Female|62.94|1.50|DRUG|Y|27.973333|89.0|
 
-## Aggregating data
+## 3. Aggregating data
 
 
 
