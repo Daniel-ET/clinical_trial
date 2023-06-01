@@ -170,6 +170,13 @@ We can then merge the two dataframes on the subject id
 
 ![a](https://github.com/Daniel-ET/clinical_trial/assets/96924468/3afff38f-fa95-4dcd-ae54-cd03e90f18af)
 
+#### comparing responders and non-responders
+
+![b](https://github.com/Daniel-ET/clinical_trial/assets/96924468/6c9401c4-d62b-4b0b-9063-e1a8f3739706)
+
+
+
+
 
 
 
