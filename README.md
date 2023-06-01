@@ -140,6 +140,16 @@ BMI is calculated by dividing weight by the square of the height
 ``clinical_study['bmi'] = clinical_study['weight']/clinical_study['height']**2``
 
 
+|subject_id|age|sex|weight|height|trt_grp|RESPONSE|bmi|
+|----------|---|---|------|------|-------|--------|---|
+|SUBJ_001|46.0|Female|84.66|1.59|DRUG|N|33.487599|
+|SUBJ_002|47.0|Female|71.21|1.64|DRUG|N|26.476056|
+|SUBJ_003|48.0|Female|69.85|1.73|CONTROL|N|23.338568|
+|SUBJ_004|59.0|Female|62.94|1.50|DRUG|Y|27.973333|
+
+
+
+
 
 
 
