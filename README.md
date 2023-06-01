@@ -178,6 +178,8 @@ We can then merge the two dataframes on the subject id
 
 ![c ](https://github.com/Daniel-ET/clinical_trial/assets/96924468/daeb7baa-99ec-463d-be56-0b32c9a611d2)
 
+## 5. Visualizing the data
+
 
 
 
