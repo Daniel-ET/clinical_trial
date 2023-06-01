@@ -133,6 +133,12 @@ As we can see, the data for age and protein is slighly skewed. Therefore it woul
 
 ## Create new variables and merge dataframes
 
+#### BMI
+
+BMI is calculated by dividing weight by the square of the height
+
+``clinical_study['bmi'] = clinical_study['weight']/clinical_study['height']**2``
+
 
 
 
