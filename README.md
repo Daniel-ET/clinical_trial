@@ -192,6 +192,10 @@ We can then merge the two dataframes on the subject id
 
 ![image](https://github.com/Daniel-ET/clinical_trial/assets/96924468/5d307e32-3d10-4f75-ba4c-8d0151e9baf6)
 
+##### seperated by treatment group
+
+![image](https://github.com/Daniel-ET/clinical_trial/assets/96924468/a23a4b89-1eec-461f-9878-f9ad7e3ba007)
+
 
 
 
