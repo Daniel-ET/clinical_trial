@@ -216,9 +216,9 @@ First we prepare the data by splitting it into features(X) and the target variab
 we then encode categorical variables. In this case we will use one-hot encoding
 
 `categorical_columns = ['sex', 'trt_grp']
-encoder = OneHotEncoder(sparse=False, drop='first')
-encoded_cols = pd.DataFrame(encoder.fit_transform(X[categorical_columns]))
-encoded_cols.columns = encoder.get_feature_names_out(categorical_columns)`
+`encoder = OneHotEncoder(sparse=False, drop='first')`
+`encoded_cols = pd.DataFrame(encoder.fit_transform(X[categorical_columns]))`
+`encoded_cols.columns = encoder.get_feature_names_out(categorical_columns)`
 
 
 
