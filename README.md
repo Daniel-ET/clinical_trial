@@ -211,6 +211,7 @@ We cam use data science to predict whether a patient will response to treatment 
 First we prepare the data by splitting it into features(X) and the target variable(y):
 
 `X = df.drop(['RESPONSE', 'subject_id'], axis=1)`
+
 `y = df['RESPONSE']`
 
 we then encode categorical variables. In this case we will use one-hot encoding
