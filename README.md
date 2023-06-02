@@ -224,6 +224,54 @@ we then encode categorical variables. In this case we will use one-hot encoding
 
 `encoded_cols.columns = encoder.get_feature_names_out(categorical_columns)`
 
+we then drop the original categorical columns from X
+
+`X = X.drop(categorical_columns, axis=1)`
+
+and then concatenate the encoded categorical columns with X.
+
+`X_encoded = pd.concat([X, encoded_cols], axis=1)`
+
+We now split the data into training and tests,
+
+`X_train, X_test, y_train, y_test = train_test_split(X_encoded, y, test_size=0.2, random_state=42)`
+
+scale the features,
+
+`scaler = StandardScaler()`
+
+`X_train = scaler.fit_transform(X_train)`
+
+`X_test = scaler.transform(X_test)`
+
+Create and train the model
+
+`model = LogisticRegression()`
+
+`model.fit(X_train, y_train)`
+
+Make predictions on the test set
+
+`y_pred = model.predict(X_test)`
+
+finally we evaluate the performance of the model
+
+` accuracy = accuracy_score(y_test, y_pred)`
+
+This model achieved an accuracy of 82%
+
+
+
+
+     
+
+
+
+
+
+
+
+
 
 
 
