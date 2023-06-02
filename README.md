@@ -208,6 +208,11 @@ We can then merge the two dataframes on the subject id
 
 We cam use data science to predict whether a patient will response to treatment based on their age, sex, weight, height, trt_grp, bmi, and protein concentration. This is a binary classification task so we will be using a logistic regression although other algorithms such as decision trees, random forests, or support vector machines might be appropriate.
 
+First we prepare the data by splitting it into features(X) and the target variable(y):
+
+> `X = df.drop(['RESPONSE', 'subject_id'], axis=1)`
+
+
 
 
 
