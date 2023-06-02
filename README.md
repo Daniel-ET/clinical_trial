@@ -188,6 +188,12 @@ We can then merge the two dataframes on the subject id
 
 ![image](https://github.com/Daniel-ET/clinical_trial/assets/96924468/3d8b83e1-5fbe-4d1d-85e6-39b1f36e16ea)
 
+#### ii. Boxplot of weight/BMI(y-axis) by response (x-axis)
+
+![image](https://github.com/Daniel-ET/clinical_trial/assets/96924468/5d307e32-3d10-4f75-ba4c-8d0151e9baf6)
+
+
+
 
 
 
