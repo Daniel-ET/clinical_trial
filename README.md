@@ -2,7 +2,7 @@
 
 Example of analysing data from a clinical trial using synthetic data.
 
-## 1. The Data
+## The Data
 
 **clinical_study.csv**
 
@@ -52,7 +52,7 @@ We want to adress questions such as:
 * Do patients that take the drug respond more to treatment compared to those in the control group?
 * Can we use data science to predict whether a patient will respond better to the new treatment?
 
-## 2. Examining Data
+## Examining Data
 
 `clinical_study.info()`
 
@@ -131,7 +131,7 @@ As we can see, the data for age and protein is slighly skewed. Therefore it woul
 
 ```protein_levels = protein_levels.fillna(protein_levels.median())```
 
-## 3. Create new variables and merge dataframes
+## Create new variables and merge dataframes
 
 #### a. BMI
 
@@ -164,7 +164,7 @@ We can then merge the two dataframes on the subject id
 |SUBJ_003|48.0|Female|69.85|1.73|CONTROL|N|23.338568|183.0|
 |SUBJ_004|59.0|Female|62.94|1.50|DRUG|Y|27.973333|89.0|
 
-## 4. Aggregating data
+## Aggregating data
 
 #### comparing averages in the two treatment groups
 
@@ -178,7 +178,7 @@ We can then merge the two dataframes on the subject id
 
 ![c ](https://github.com/Daniel-ET/clinical_trial/assets/96924468/daeb7baa-99ec-463d-be56-0b32c9a611d2)
 
-## 5. Visualizing the data
+## Visualizing the data
 
 #### i. Boxplot of age(y-axis) by response (x-axis)
 
@@ -203,6 +203,11 @@ We can then merge the two dataframes on the subject id
 ##### Seperated by treatment group
 
 ![image](https://github.com/Daniel-ET/clinical_trial/assets/96924468/d1c0d875-849f-4001-846e-875946083cf8)
+
+## Modelling (Logistic Regression)
+
+We cam use data science to predict whether a patient will response to treatment based on their age, sex, weight, height, trt_grp, bmi, and protein concentration. This is a binary classification task so we will be using a logistic regression although other algorithms such as decision trees, random forests, or support vector machines might be appropriate.
+
 
 
 
