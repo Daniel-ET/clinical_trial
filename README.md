@@ -196,6 +196,11 @@ We can then merge the two dataframes on the subject id
 
 ![image](https://github.com/Daniel-ET/clinical_trial/assets/96924468/a23a4b89-1eec-461f-9878-f9ad7e3ba007)
 
+#### iii. Boxplot of protein_concentration(y-axis) by response(x-axis)
+
+![image](https://github.com/Daniel-ET/clinical_trial/assets/96924468/41937305-74dd-437e-92d5-d35b1d4e72d7)
+
+
 
 
 
